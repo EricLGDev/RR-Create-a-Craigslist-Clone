@@ -1,4 +1,4 @@
-const posting = (props) => {
+const Posting = (props) => {
     return (
         <div>
             <h1> {props.posting.title} </h1>
@@ -8,4 +8,4 @@ const posting = (props) => {
     )
 }
 
-export default posting
+export default Posting
