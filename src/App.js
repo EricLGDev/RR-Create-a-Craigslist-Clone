@@ -5,6 +5,7 @@ import './App.css';
 import Gallery from './Components/Gallery'
 import Searchbar from './Components/Searchbar';
 import Directory from './Components/Directory';
+import Sidebar from './Components/Sidebar';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <div className="App">
         <Searchbar />
         <Directory />
+        <Sidebar />
         <Gallery postings={postings} />
       </div>
     </div>
