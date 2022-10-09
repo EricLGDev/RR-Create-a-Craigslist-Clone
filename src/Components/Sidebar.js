@@ -1,3 +1,5 @@
+import Help from './Help'
+
 const Sidebar = (props) => {
     return (
         <div className="sidebar">
@@ -10,6 +12,7 @@ const Sidebar = (props) => {
                 </ul>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias hic delectus eligendi aliquam dolores velit eos repudiandae repellat odit iure itaque, ex iste assumenda aspernatur quo voluptate, mollitia illum?</p>
+            <Help />
         </div>
     )
 }
