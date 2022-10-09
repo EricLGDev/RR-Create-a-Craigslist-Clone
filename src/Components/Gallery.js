@@ -2,7 +2,7 @@ import Posting from './Posting'
 
 const Gallery = (props) => {
     return (
-        <div>
+        <div className='gallery'>
             {props.postings.map((p, i) => {
                 return <Posting posting={p} key={i} />
             })}

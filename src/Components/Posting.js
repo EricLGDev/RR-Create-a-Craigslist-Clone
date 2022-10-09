@@ -1,6 +1,6 @@
 const Posting = (props) => {
     return (
-        <div>
+        <div className='posting'>
             <h1> {props.posting.title} </h1>
             <p> {props.posting.description} </p>
             <img src={props.posting.imageURL} alt={props.posting.title} />
